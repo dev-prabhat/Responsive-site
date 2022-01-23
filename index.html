@@ -5,27 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Acme Web Design | Home</title>
+    <link rel="stylesheet" href="./assests/css/utile.css" />
     <link rel="stylesheet" href="./assests/css/style.css" />
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <div id="branding">
-          <h1><span class="highlight">Acme</span> Web Design</h1>
-        </div>
-        <nav id="nav-bar">
-          <ul>
-            <li class="nav-link current"><a href="index.html">Home</a></li>
-            <li class="nav-link"><a href="/about.html">About</a></li>
-            <li class="nav-link"><a href="/service.html">Services</a></li>
+        <h1><span class="highlight">Acme</span> Web Design</h1>
+        <nav>
+          <ul class="nav-bar">
+            <li class="nav-pills">
+              <a class="nav-link current" href="index.html">Home</a>
+            </li>
+            <li class="nav-pills">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-pills">
+              <a class="nav-link" href="/service.html">Services</a>
+            </li>
           </ul>
         </nav>
       </div>
     </header>
     <section id="showcase">
-      <div class="container">
-        <h1>Affordable Professional Web Design</h1>
-        <p>
+      <div class="showcase--container">
+        <h1 class="title">Affordable Professional Web Design</h1>
+        <p class="description">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
           ducimus quisquam deleniti, magni temporibus dicta, quas quaerat quia
           consequatur vel nostrum pariatur velit porro itaque deserunt minus
@@ -48,7 +53,7 @@
       </div>
     </section>
     <section id="boxes">
-      <div class="container container_boxes">
+      <div class="container">
         <div class="box">
           <img src="./assests/images/html_logo.png" alt="html_logo" />
           <h1>HTML5 Markup</h1>
