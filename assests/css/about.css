@@ -12,3 +12,12 @@
   margin: 10px 0;
   font-size: 1.5rem;
 }
+
+@media (max-width: 900px) {
+  #main-col {
+    width: 80%;
+  }
+  #sidebar {
+    width: 80%;
+  }
+}
