@@ -135,3 +135,12 @@
   background-color: var(--border-color);
   color: var(--text-color);
 }
+
+@media (max-width: 900px) {
+  .row-container {
+    /* width: 50%; */
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+  }
+}
